@@ -10,11 +10,11 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  color: #272829;
+  color: #535659;
 }
 
 a {
-  color: #149ddd;
+  color: #247195;
 }
 
 a:hover {
@@ -24,6 +24,10 @@ a:hover {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
+}
+
+span.highlight{
+  font-weight: 650;
 }
 
 /*--------------------------------------------------------------
@@ -284,7 +288,7 @@ section {
 }
 
 .section-title {
-  padding-bottom: 30px;
+  padding-bottom: 10px;
 }
 
 .section-title h2 {
@@ -390,7 +394,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Akills
+# Skills
 --------------------------------------------------------------*/
 .skills .progress {
   height: 50px;
@@ -1036,6 +1040,10 @@ section {
   padding: 0;
 }
 
+.chinese{
+  font-family: "AR PL UKai CN", "regular script", "kaiti", "kaishu", "zhengshu", "zhengkai", cursive;
+}
+
 @media (max-width: 768px) {
   .portfolio-details .portfolio-description h2 {
     width: 100%;
@@ -1086,4 +1094,61 @@ section {
 
 .carousel-indicators{
   top: -50px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: none;
+  vertical-align: text-top;
+}
+
+th, td {
+  padding: 5px;
+  text-align: left;
+}
+
+th:first-child, td:first-child {
+  width: 200px; /* Minimize the width */
+  white-space: nowrap; /* Prevents the content from wrapping */
+}
+
+.newsdate{
+  text-align: right;
+  padding-right: 100px;
+}
+
+#pubs tr td{
+  padding-bottom: 10px;
+  vertical-align: middle;
+}
+
+#pubs .thumbnail{
+  width: 250px;
+  height: 125px;
+  object-fit: cover;
+  margin-right: 50px;
+}
+
+#pubs a{
+  padding-right: 40px;
+}
+
+#pubs .papertitle{
+  display: block;
+  padding-bottom: 5px;
+  /* font-weight: bolder; */
+  color: black;
+}
+
+.descriptison{
+  font-weight: lighter;
+}
+
+.when{
+  font-weight: lighter;
+  font-style: italic;
 }
