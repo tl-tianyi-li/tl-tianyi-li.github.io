@@ -25,7 +25,14 @@ The Co-Intelligence Lab is currently seeking students interested in human–AI i
 
 ## Prospective Ph.D. and M.S. Students
 
-Admission is handled by the graduate program, not by individual faculty, so please apply through the [Purdue Polytechnic graduate programs](https://polytechnic.purdue.edu/graduate-programs) and mention my name and the Co-Intelligence Lab in your statement of purpose.
+Admission is handled by the graduate program, not by individual faculty. Ph.D. students can join the lab through either of two programs:
+
+- [Ph.D. in Computer and Information Technology](https://polytechnic.purdue.edu/academics/phd-computer-and-information-technology)
+- [Ph.D. in Technology](https://polytechnic.purdue.edu/academics/phd-technology)
+
+For M.S. options, see the [Purdue Polytechnic graduate programs](https://polytechnic.purdue.edu/graduate-programs). Whichever program you choose, mention my name and the Co-Intelligence Lab in your statement of purpose.
+
+Please direct questions about a program, such as admission requirements, deadlines, application materials, or the status of an application, to the contact listed on that program's website. The program staff can answer these much more accurately than I can.
 
 Funding for Ph.D. students usually comes from research or teaching assistantships and depends on current grants. If there's a good fit, I'm happy to discuss it.
 
