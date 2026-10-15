@@ -29,6 +29,7 @@ The **Co-Intelligence Lab** at Purdue University studies how people learn, make 
 <div class="member"><span class="member-initials" aria-hidden="true">TS</span><span class="member-name">Tianyu Shao</span></div>
 <div class="member"><span class="member-initials" aria-hidden="true">MW</span><span class="member-name">Mingyang Wu</span></div>
 <div class="member"><span class="member-initials" aria-hidden="true">MW</span><span class="member-name">Meng-Yu Wun</span></div>
+<div class="member"><span class="member-initials" aria-hidden="true">MG</span><span class="member-name">Markeya Gu</span><span class="member-note">co-advised with Alejandra J. Magana</span></div>
 </div>
 
 ### Doctor of Technology Students
@@ -46,6 +47,7 @@ The **Co-Intelligence Lab** at Purdue University studies how people learn, make 
 <div class="member"><span class="member-initials" aria-hidden="true">MK</span><span class="member-name">Manasvi Reddy Kothakota</span><span class="member-note">co-advised with Tatiana Ringenberg</span></div>
 <div class="member"><span class="member-initials" aria-hidden="true">TF</span><span class="member-name">Tzu-En Feng</span></div>
 <div class="member"><span class="member-initials" aria-hidden="true">HJ</span><span class="member-name">Hammad Javaid</span></div>
+<div class="member"><span class="member-initials" aria-hidden="true">AB</span><span class="member-name">Abhinav Balakrishnan</span></div>
 </div>
 
 ### Undergraduate Researchers
