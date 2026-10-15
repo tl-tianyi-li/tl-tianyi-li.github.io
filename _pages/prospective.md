@@ -13,9 +13,9 @@ nav_order: 7
 
 Thank you for your interest in the Co-Intelligence Lab! We design and study AI systems that work *with* people, and we build and evaluate them together with the people who use them. The [publications](/publications/) page is the best way to see what we work on.
 
-## What I'm looking for
+## What We Are Looking For
 
-I am currently seeking students interested in human–AI interaction, particularly in these areas:
+The Co-Intelligence Lab is currently seeking students interested in human–AI interaction, particularly in these areas:
 
 - **AI for aging and community engagement.** Supporting older adults and caregivers in learning and using AI, creating technologies that are useful in their lives, and connecting students with senior communities through service learning.
 - **AI for learning and workforce development.** Exploring AI-augmented learnersourcing, cross-course collaboration, and AI-assisted learning that help people upskill and prepare responsible, security-conscious developers.
@@ -23,17 +23,17 @@ I am currently seeking students interested in human–AI interaction, particular
 
 **Qualifications.** Strong candidates are curious, self-motivated, collaborative, and interested in building and studying technologies with people. Relevant experience may include HCI, UX design, software development, computing education, cybersecurity, or qualitative and quantitative research. Strong communication skills, reliable follow-through, and a willingness to learn are essential. You are not expected to have expertise in every area.
 
-## Prospective Ph.D. and M.S. students
+## Prospective Ph.D. and M.S. Students
 
 Admission is handled by the graduate program, not by individual faculty, so please apply through the [Purdue Polytechnic graduate programs](https://polytechnic.purdue.edu/graduate-programs) and mention my name and the Co-Intelligence Lab in your statement of purpose.
 
 Funding for Ph.D. students usually comes from research or teaching assistantships and depends on current grants. If there's a good fit, I'm happy to discuss it.
 
-## Current Purdue students
+## Current Purdue Students
 
 Undergraduate and master's students are welcome to get involved in research. Students have joined the lab through independent study, honors theses, the Discovery Undergraduate Interdisciplinary Research Internship (DUIRI), and summer research programs. If you've taken one of my courses and enjoyed it, that's a great place to start a conversation.
 
-## Contacting me
+## Contacting Me
 
 Email me at **li4251+prospective [at] purdue.edu**. Please:
 

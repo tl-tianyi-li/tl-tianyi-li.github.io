@@ -221,8 +221,8 @@ pp = yaml("people.yml")
 cur = pp["current"]
 alum = pp["alumni"]
 person = ->(p) { p["note"] ? "- #{p['name']} (#{p['note']})" : "- #{p['name']}" }
-current_groups = [["Ph.D. students", "phd"], ["Doctor of Technology students", "dtech"], ["M.S. students", "ms"],
-                  ["Graduate research assistants", "research_assistants"], ["Undergraduate researchers", "undergraduates"]]
+current_groups = [["Ph.D. Students", "phd"], ["Doctor of Technology Students", "dtech"], ["M.S. Students", "ms"],
+                  ["Graduate Research Assistants", "research_assistants"], ["Undergraduate Researchers", "undergraduates"]]
 current_md = current_groups.filter_map do |label, k|
   next unless cur[k]&.any?
   "### #{label}\n\n#{cur[k].map(&person).join("\n")}"
@@ -236,8 +236,8 @@ end
 alumni_md = []
 alumni_md << "### Ph.D.\n\n#{alum['phd'].map { |a| degree_line.(a, 'Ph.D.') }.join("\n")}" if alum["phd"]&.any?
 alumni_md << "### M.S.\n\n#{alum['ms'].map { |a| degree_line.(a, 'M.S.') }.join("\n")}" if alum["ms"]&.any?
-alumni_md << "### Graduate researchers\n\n#{alum['graduate_researchers'].map { |n| "- #{n}" }.join("\n")}" if alum["graduate_researchers"]&.any?
-alumni_md << "### Undergraduate researchers\n\n#{alum['undergraduate_researchers'].map { |n| "- #{n}" }.join("\n")}" if alum["undergraduate_researchers"]&.any?
+alumni_md << "### Graduate Researchers\n\n#{alum['graduate_researchers'].map { |n| "- #{n}" }.join("\n")}" if alum["graduate_researchers"]&.any?
+alumni_md << "### Undergraduate Researchers\n\n#{alum['undergraduate_researchers'].map { |n| "- #{n}" }.join("\n")}" if alum["undergraduate_researchers"]&.any?
 
 student_names = (cur.values.flatten.flat_map { |p| [p["name"], *p["aliases"].to_a] } + alum["phd"].to_a.map { |a| a["name"] } +
                  alum["ms"].to_a.map { |a| a["name"] } + alum["graduate_researchers"].to_a +

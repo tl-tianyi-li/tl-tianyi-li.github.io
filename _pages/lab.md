@@ -19,7 +19,7 @@ The **Co-Intelligence Lab** at Purdue University studies how people learn, make 
 
 - [Tianyi Li](/)
 
-### Ph.D. students
+### Ph.D. Students
 
 - Jia Lin Cheoh (co-advised with Julia Rayz)
 - Yuzhe Zhou
@@ -27,20 +27,20 @@ The **Co-Intelligence Lab** at Purdue University studies how people learn, make 
 - Mingyang Wu
 - Meng-Yu Wun
 
-### Doctor of Technology students
+### Doctor of Technology Students
 
 - Se Young Oh
 - Jerry Hughes Martin
 - Joshua R. Spicer
 
-### M.S. students
+### M.S. Students
 
 - Denison Guvenoz (co-advised with Julia Rayz)
 - Manasvi Reddy Kothakota (co-advised with Tatiana Ringenberg)
 - Tzu-En Feng
 - Hammad Javaid
 
-### Undergraduate researchers
+### Undergraduate Researchers
 
 - Shyla Yadav
 - Mark Tudor Haiduc
@@ -57,7 +57,7 @@ The **Co-Intelligence Lab** at Purdue University studies how people learn, make 
 - **Divya Sree Pulipati**, M.S. 2025
 - **Yuzhe Zhou**, M.S. 2024
 
-### Graduate researchers
+### Graduate Researchers
 
 - Tanay Maheshwari
 - Yiqun Zhang
@@ -68,7 +68,7 @@ The **Co-Intelligence Lab** at Purdue University studies how people learn, make 
 - Prithvi Manjunatha
 - Zishuo Feng
 
-### Undergraduate researchers
+### Undergraduate Researchers
 
 - Alex Michael Voelker
 - Satya Bonepalli
