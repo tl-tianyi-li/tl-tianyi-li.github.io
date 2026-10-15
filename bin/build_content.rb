@@ -277,7 +277,7 @@ group_photo_md = if !group_photo.empty? && File.exist?(File.join(people_dir, gro
                  else
                    ""
                  end
-director_md = "### Director\n\n- [#{settings['name']}](/)"
+director_md = member_group.("Director", [{ "name" => settings["name"], "photo" => "tianyi-li.png" }])
 write("_pages/lab.md", { "layout" => "page", "permalink" => "/lab/", "title" => "Co-Intelligence Lab",
                          "description" => lab_subtitle, "nav" => true, "nav_order" => 4 }, <<~MD)
   #{group_photo_md}#{lab_intro}

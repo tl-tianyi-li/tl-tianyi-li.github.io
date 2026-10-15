@@ -17,7 +17,9 @@ The **Co-Intelligence Lab** at Purdue University studies how people learn, make 
 
 ### Director
 
-- [Tianyi Li](/)
+<div class="member-grid">
+<div class="member"><img src="/assets/img/people/tianyi-li.png" alt="Tianyi Li" loading="lazy"><span class="member-name">Tianyi Li</span></div>
+</div>
 
 ### Ph.D. Students
 
