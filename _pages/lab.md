@@ -21,29 +21,37 @@ The **Co-Intelligence Lab** at Purdue University studies how people learn, make 
 
 ### Ph.D. Students
 
-- Jia Lin Cheoh (co-advised with Julia Rayz)
-- Yuzhe Zhou
-- Tianyu Shao
-- Mingyang Wu
-- Meng-Yu Wun
+<div class="member-grid">
+<div class="member"><span class="member-initials" aria-hidden="true">JC</span><span class="member-name">Jia Lin Cheoh</span><span class="member-note">co-advised with Julia Rayz</span></div>
+<div class="member"><span class="member-initials" aria-hidden="true">YZ</span><span class="member-name">Yuzhe Zhou</span></div>
+<div class="member"><span class="member-initials" aria-hidden="true">TS</span><span class="member-name">Tianyu Shao</span></div>
+<div class="member"><span class="member-initials" aria-hidden="true">MW</span><span class="member-name">Mingyang Wu</span></div>
+<div class="member"><span class="member-initials" aria-hidden="true">MW</span><span class="member-name">Meng-Yu Wun</span></div>
+</div>
 
 ### Doctor of Technology Students
 
-- Se Young Oh
-- Jerry Hughes Martin
-- Joshua R. Spicer
+<div class="member-grid">
+<div class="member"><span class="member-initials" aria-hidden="true">SO</span><span class="member-name">Se Young Oh</span></div>
+<div class="member"><span class="member-initials" aria-hidden="true">JM</span><span class="member-name">Jerry Hughes Martin</span></div>
+<div class="member"><span class="member-initials" aria-hidden="true">JS</span><span class="member-name">Joshua R. Spicer</span></div>
+</div>
 
 ### M.S. Students
 
-- Denison Guvenoz (co-advised with Julia Rayz)
-- Manasvi Reddy Kothakota (co-advised with Tatiana Ringenberg)
-- Tzu-En Feng
-- Hammad Javaid
+<div class="member-grid">
+<div class="member"><span class="member-initials" aria-hidden="true">DG</span><span class="member-name">Denison Guvenoz</span><span class="member-note">co-advised with Julia Rayz</span></div>
+<div class="member"><span class="member-initials" aria-hidden="true">MK</span><span class="member-name">Manasvi Reddy Kothakota</span><span class="member-note">co-advised with Tatiana Ringenberg</span></div>
+<div class="member"><span class="member-initials" aria-hidden="true">TF</span><span class="member-name">Tzu-En Feng</span></div>
+<div class="member"><span class="member-initials" aria-hidden="true">HJ</span><span class="member-name">Hammad Javaid</span></div>
+</div>
 
 ### Undergraduate Researchers
 
-- Shyla Yadav
-- Mark Tudor Haiduc
+<div class="member-grid">
+<div class="member"><span class="member-initials" aria-hidden="true">SY</span><span class="member-name">Shyla Yadav</span></div>
+<div class="member"><span class="member-initials" aria-hidden="true">MH</span><span class="member-name">Mark Tudor Haiduc</span></div>
+</div>
 
 ## Alumni
 
