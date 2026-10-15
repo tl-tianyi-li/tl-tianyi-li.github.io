@@ -1,0 +1,496 @@
+// Site design language: Purdue palette, Source Sans 3 / Barlow Semi Condensed / Source Serif 4,
+// and the components described in website-content/design-language.md.
+// Loaded last from assets/css/main.scss so it overrides the al-folio theme defaults.
+
+// ---------------------------------------------------------------------------
+// Tokens
+// ---------------------------------------------------------------------------
+:root {
+  --site-font-body: "Source Sans 3", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --site-font-label: "Barlow Semi Condensed", "Source Sans 3", "Helvetica Neue", Arial, sans-serif;
+  --site-font-serif: "Source Serif 4", Georgia, serif;
+
+  --global-bg-color: #ffffff;
+  --global-text-color: #2b2b2b;
+  --global-text-color-light: #555960; // Purdue Steel
+  --global-theme-color: #8e6f3e; // Purdue Aged (AA contrast on white)
+  --global-hover-color: #6b5230;
+  --global-hover-text-color: #ffffff;
+  --global-highlight-color: #b38a00; // Purdue Rush, darkened slightly for text contrast
+  --global-divider-color: #e6e6e6;
+  --global-footer-bg-color: #1f1f1f;
+  --global-footer-text-color: #c4bfc0;
+  --global-footer-link-color: #cfb991;
+
+  --site-tint: #f6f1e7; // Boilermaker Gold at about 12% on white
+  --site-badge-bg: #daaa00; // Purdue Rush
+  --site-badge-text: #1f1f1f;
+}
+
+html[data-theme="dark"] {
+  --global-bg-color: #1c1c1e;
+  --global-text-color: #e8e6e3;
+  --global-text-color-light: #a8a9ad;
+  --global-theme-color: #cfb991; // Boilermaker Gold
+  --global-hover-color: #ebd99f;
+  --global-hover-text-color: #1c1c1e;
+  --global-highlight-color: #daaa00;
+  --global-divider-color: #34343a;
+  --global-card-bg-color: #26262a;
+  --global-footer-bg-color: #111113;
+
+  --site-tint: #2c2820;
+  --site-badge-bg: #daaa00;
+  --site-badge-text: #1c1c1e;
+}
+
+// ---------------------------------------------------------------------------
+// Typography
+// ---------------------------------------------------------------------------
+html body {
+  font-family: var(--site-font-body);
+  font-size: 16px;
+  line-height: 1.55;
+  color: var(--global-text-color);
+  background-color: var(--global-bg-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+.navbar,
+.post-title,
+.page-title {
+  font-family: var(--site-font-body);
+}
+
+.post-header .post-title {
+  font-size: 2.5rem;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+
+  .font-weight-bold {
+    font-weight: 600 !important;
+  }
+}
+
+.post-header .desc {
+  color: var(--global-text-color-light);
+}
+
+// Section headings inside page content: condensed sans, like Purdue's United Sans
+.post article h2 {
+  font-family: var(--site-font-label);
+  font-weight: 600;
+  font-size: 1.6rem;
+  margin-top: 2.25rem;
+}
+
+.post article h3 {
+  font-weight: 600;
+  font-size: 1.2rem;
+  margin-top: 1.5rem;
+}
+
+// Homepage section labels (NEWS, SELECTED PUBLICATIONS, RESEARCH): small uppercase gold
+.post.about-page article h2,
+.post article h2.bibliography-section {
+  font-family: var(--site-font-label);
+  font-size: 0.95rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--global-theme-color);
+  border-top: 1px solid var(--global-divider-color);
+  padding-top: 1.25rem;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+
+  a {
+    color: inherit !important;
+  }
+}
+
+a {
+  color: var(--global-theme-color);
+  text-decoration: none;
+
+  &:hover {
+    color: var(--global-hover-color);
+    text-decoration: underline;
+  }
+}
+
+// Profile sidebar text on the homepage: body font, not monospace
+.profile .more-info {
+  font-family: var(--site-font-body);
+  font-size: 0.9rem;
+  color: var(--global-text-color-light);
+  line-height: 1.4;
+
+  p {
+    margin: 0;
+  }
+}
+
+// ---------------------------------------------------------------------------
+// Research line under the name, and the join-us box
+// ---------------------------------------------------------------------------
+.thesis {
+  font-family: var(--site-font-serif);
+  font-style: italic;
+  font-size: 1.25rem;
+  line-height: 1.45;
+  margin: 0.25rem 0 1.25rem;
+  color: var(--global-text-color);
+}
+
+.join-box {
+  background: var(--site-tint);
+  border-left: 3px solid var(--global-theme-color);
+  border-radius: 4px;
+  padding: 0.75rem 1rem;
+  margin: 1.25rem 0 0.5rem;
+  clear: both;
+
+  p {
+    margin: 0;
+  }
+}
+
+// ---------------------------------------------------------------------------
+// Research theme cards (homepage)
+// ---------------------------------------------------------------------------
+.theme-cards {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 0.5rem 0 0.5rem;
+  clear: both;
+
+  @media (max-width: 767px) {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  @media (max-width: 479px) {
+    gap: 0.6rem;
+  }
+}
+
+.theme-card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 4px;
+  overflow: hidden;
+  color: var(--global-text-color) !important;
+  background: var(--global-card-bg-color, var(--global-bg-color));
+  transition: border-color 0.15s ease;
+
+  &:hover {
+    border-color: var(--global-theme-color);
+    text-decoration: none !important;
+
+    .theme-card-title {
+      color: var(--global-theme-color);
+    }
+  }
+
+  img {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    background: #f2f2f2;
+    border-bottom: 1px solid var(--global-divider-color);
+  }
+
+  .theme-card-body {
+    padding: 0.6rem 0.75rem 0.75rem;
+  }
+
+  .theme-card-title {
+    font-family: var(--site-font-label);
+    font-weight: 600;
+    font-size: 1.05rem;
+    line-height: 1.25;
+    margin-bottom: 0.3rem;
+  }
+
+  .theme-card-question {
+    font-size: 0.85rem;
+    line-height: 1.35;
+    color: var(--global-text-color-light);
+  }
+}
+
+// ---------------------------------------------------------------------------
+// News: date pills
+// ---------------------------------------------------------------------------
+.news table {
+  th[scope="row"] {
+    width: 6.5rem !important;
+    padding-left: 0;
+    vertical-align: top;
+  }
+
+  td {
+    vertical-align: top;
+  }
+}
+
+.news-date {
+  display: inline-block;
+  min-width: 5.5rem;
+  text-align: center;
+  font-family: var(--site-font-label);
+  font-weight: 600;
+  font-size: 0.85rem;
+  letter-spacing: 0.02em;
+  color: var(--global-theme-color);
+  background: var(--site-tint);
+  border-radius: 999px;
+  padding: 0.1rem 0.6rem;
+  white-space: nowrap;
+}
+
+// ---------------------------------------------------------------------------
+// Publications: thumbnails, self and student authors, award badges
+// ---------------------------------------------------------------------------
+.publications ol.bibliography li,
+ol.bibliography li {
+  margin-bottom: 1.4rem;
+
+  .abbr {
+    abbr.badge {
+      font-family: var(--site-font-label);
+      font-weight: 600;
+      letter-spacing: 0.03em;
+      background-color: transparent !important;
+      color: var(--global-theme-color) !important;
+      border: 1px solid var(--global-theme-color);
+      border-radius: 4px;
+    }
+  }
+
+  .preview {
+    width: 100%;
+    max-width: 120px;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    border-radius: 4px;
+    box-shadow: none !important;
+    border: 1px solid var(--global-divider-color);
+  }
+
+  .preview-placeholder {
+    width: 100%;
+    max-width: 120px;
+    aspect-ratio: 4 / 3;
+    border-radius: 4px;
+    background: var(--site-tint);
+    border: 1px solid var(--global-divider-color);
+  }
+
+  .title {
+    font-weight: 600;
+    line-height: 1.35;
+
+    a {
+      color: var(--global-text-color);
+
+      &:hover {
+        color: var(--global-theme-color);
+      }
+    }
+  }
+
+  .author {
+    font-size: 0.93rem;
+    color: var(--global-text-color-light);
+
+    > em {
+      font-style: normal;
+      font-weight: 600;
+      color: var(--global-text-color);
+      border-bottom: none;
+    }
+
+    .student-author {
+      border-bottom: 1px dotted var(--global-text-color-light);
+      cursor: help;
+    }
+  }
+
+  .periodical {
+    font-size: 0.93rem;
+    color: var(--global-text-color-light);
+  }
+
+  .links a.btn {
+    font-size: 0.78rem;
+    padding: 0.1rem 0.6rem !important;
+    border-radius: 4px;
+    border-color: var(--global-divider-color) !important;
+  }
+
+  .links a.award.btn,
+  .award-badge {
+    background: var(--site-badge-bg);
+    color: var(--site-badge-text) !important;
+    border-color: var(--site-badge-bg) !important;
+    font-weight: 600;
+  }
+}
+
+.student-legend {
+  font-size: 0.9rem;
+  color: var(--global-text-color-light);
+
+  .student-author {
+    border-bottom: 1px dotted var(--global-text-color-light);
+  }
+}
+
+// ---------------------------------------------------------------------------
+// Shape: flat cards, thin rules
+// ---------------------------------------------------------------------------
+.z-depth-1 {
+  box-shadow: none !important;
+}
+
+.profile img.rounded-circle {
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.12) !important;
+}
+
+hr {
+  border-color: var(--global-divider-color);
+}
+
+// Presentation track label on publication entries (Poster, Demo, Short Paper, ...)
+.periodical .track {
+  font-family: var(--site-font-label);
+  font-weight: 600;
+  font-size: 0.85rem;
+  letter-spacing: 0.02em;
+  color: var(--global-theme-color);
+}
+
+// ---------------------------------------------------------------------------
+// Homepage: photo column with contact icons; bio text does not wrap around the photo
+// ---------------------------------------------------------------------------
+.post.about-page {
+  .profile {
+    width: 200px;
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+
+  .profile-social {
+    margin-top: 0.75rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+    font-size: 1.15rem;
+    line-height: 1;
+
+    a {
+      color: var(--global-text-color-light) !important;
+
+      &:hover {
+        color: var(--global-theme-color) !important;
+        text-decoration: none;
+      }
+    }
+
+    i {
+      font-size: 1.15rem !important;
+    }
+  }
+
+  @media (min-width: 768px) {
+    // Keep the bio in its own column instead of flowing under the photo.
+    article > .clearfix {
+      margin-right: calc(200px + 2rem) !important;
+    }
+  }
+
+  @media (max-width: 767px) {
+    .profile {
+      width: 180px;
+      float: none !important;
+      margin: 0 auto 1.25rem;
+    }
+  }
+}
+
+// ---------------------------------------------------------------------------
+// Publications: narrow venue badge column, award line with a trophy icon
+// ---------------------------------------------------------------------------
+.publications ol.bibliography li > .row,
+ol.bibliography li > .row {
+  flex-wrap: nowrap;
+
+  > .abbr {
+    flex: 0 0 7.5rem !important;
+    max-width: 7.5rem !important;
+    width: 7.5rem !important;
+    padding-right: 0.75rem;
+
+    abbr.badge {
+      font-size: 0.7rem;
+      line-height: 1.2;
+      padding: 0.25rem 0.35rem;
+      white-space: nowrap; // keep labels such as "CHI Workshop" on one line
+    }
+  }
+
+  > [id] {
+    flex: 1 1 0 !important;
+    max-width: none !important;
+    width: auto !important;
+    min-width: 0 !important; // hidden BibTeX blocks must not widen the column
+  }
+
+  @media (max-width: 575px) {
+    flex-wrap: wrap;
+
+    > .abbr {
+      flex: 0 0 100% !important;
+      max-width: 7.5rem !important;
+    }
+  }
+}
+
+.award-line {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--global-highlight-color);
+  margin-top: 0.15rem;
+
+  i {
+    margin-right: 0.2rem;
+  }
+}
+
+// Tables (news list) follow the site's light/dark setting, not the operating system's,
+// so text never ends up light-on-light or dark-on-dark.
+.news table,
+.news table th,
+.news table td,
+.post article table,
+.post article table th,
+.post article table td {
+  color: var(--global-text-color) !important;
+  background-color: transparent !important;
+}
+
+// Hidden BibTeX blocks wrap instead of widening the page.
+ol.bibliography li .bibtex pre,
+ol.bibliography li .bibtex code {
+  white-space: pre-wrap !important;
+  word-break: break-word;
+  max-width: 100%;
+}
