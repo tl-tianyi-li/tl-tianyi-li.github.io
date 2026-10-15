@@ -13,7 +13,7 @@ The text and data are kept in plain files in the `website-content` folder, which
 | Publications | `publications.bib` |
 | News | `news.yml` |
 | Teaching | `teaching.yml` |
-| Students | `people.yml` |
+| Lab page: intro, how we work, members, alumni | `lab.md`, `people.yml` |
 | Service, talks, media | `grants-service-talks.yml` |
 | Prospective students | `prospective-students.md` |
 | Name, photo, links, CV | `site-settings.yml` |
@@ -31,6 +31,15 @@ Paper PDFs go in `assets/pdf/`, named after the BibTeX key (for example `li2018c
 Paper thumbnails go in `assets/img/publication_preview/`, also named after the BibTeX key (for example `zhou2026expeerience.png`; `.jpg` and `.webp` work too). A 4:3 image of the paper's main figure works best.
 
 Students listed in `people.yml` are marked with a dotted underline on publication lists. The list is regenerated into `_data/students.yml`.
+
+## Lab photos
+
+Put photos in `assets/img/people/` (square images about 400×400 px work best; file names must not start with `_`). Then:
+
+- Student headshot: add `photo: name.jpg` under that person in `people.yml`. A group switches to a photo grid once anyone in it has a photo; others show their initials.
+- Group photo: set `group_photo: lab-2026.jpg` in `site-settings.yml`. It appears at the top of the Lab page.
+
+Only add photos with each person's permission. The old `/students/` address redirects to `/lab/`.
 
 ## Design
 

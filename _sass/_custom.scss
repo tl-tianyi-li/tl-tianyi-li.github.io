@@ -494,3 +494,59 @@ ol.bibliography li .bibtex code {
   word-break: break-word;
   max-width: 100%;
 }
+
+// ---------------------------------------------------------------------------
+// Lab page: group photo and member grid (used once photos are added)
+// ---------------------------------------------------------------------------
+.group-photo {
+  margin: 0 0 1.5rem;
+
+  img {
+    width: 100%;
+    border-radius: 4px;
+  }
+}
+
+.member-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 1.25rem 1rem;
+  margin: 0.75rem 0 1.5rem;
+}
+
+.member {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  img,
+  .member-initials {
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 0.5rem;
+  }
+
+  .member-initials {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--site-tint);
+    color: var(--global-theme-color);
+    font-family: var(--site-font-label);
+    font-weight: 600;
+    font-size: 1.5rem;
+  }
+
+  .member-name {
+    font-weight: 600;
+    line-height: 1.3;
+  }
+
+  .member-note {
+    font-size: 0.85rem;
+    color: var(--global-text-color-light);
+  }
+}
