@@ -220,7 +220,8 @@ write("_pages/teaching.md", { "layout" => "page", "permalink" => "/teaching/", "
 pp = yaml("people.yml")
 cur = pp["current"]
 alum = pp["alumni"]
-person = ->(p) { p["note"] ? "- #{p['name']} (#{p['note']})" : "- #{p['name']}" }
+linked_name = ->(p) { p["url"] ? "[#{p['name']}](#{p['url']})" : p["name"] }
+person = ->(p) { p["note"] ? "- #{linked_name.(p)} (#{p['note']})" : "- #{linked_name.(p)}" }
 current_groups = [["Ph.D. Students", "phd"], ["Doctor of Technology Students", "dtech"], ["M.S. Students", "ms"],
                   ["Graduate Research Assistants", "research_assistants"], ["Undergraduate Researchers", "undergraduates"]]
 current_md = current_groups.filter_map do |label, k|
@@ -228,7 +229,7 @@ current_md = current_groups.filter_map do |label, k|
   "### #{label}\n\n#{cur[k].map(&person).join("\n")}"
 end
 degree_line = lambda do |a, degree|
-  line = "- **#{a['name']}**, #{degree} #{a['year']}"
+  line = "- **#{linked_name.(a)}**, #{degree} #{a['year']}"
   # Thesis and dissertation titles are intentionally not shown.
   line += " (#{a['note']})" if a["note"]
   line
@@ -262,7 +263,8 @@ member_card = lambda do |p|
              %(<span class="member-initials" aria-hidden="true">#{initials.(p['name'])}</span>)
            end
   note = p["note"] ? %(<span class="member-note">#{p['note']}</span>) : ""
-  %(<div class="member">#{avatar}<span class="member-name">#{p['name']}</span>#{note}</div>)
+  name = p["url"] ? %(<a href="#{p['url']}">#{p['name']}</a>) : p["name"]
+  %(<div class="member">#{avatar}<span class="member-name">#{name}</span>#{note}</div>)
 end
 member_group = lambda do |label, list|
   return nil unless list&.any?

@@ -45,7 +45,7 @@ The **Co-Intelligence Lab** at Purdue University studies how people learn, make 
 <div class="member-grid">
 <div class="member"><span class="member-initials" aria-hidden="true">DG</span><span class="member-name">Denison Guvenoz</span><span class="member-note">co-advised with Julia Rayz</span></div>
 <div class="member"><span class="member-initials" aria-hidden="true">MK</span><span class="member-name">Manasvi Reddy Kothakota</span><span class="member-note">co-advised with Tatiana Ringenberg</span></div>
-<div class="member"><span class="member-initials" aria-hidden="true">TF</span><span class="member-name">Tzu-En Feng</span></div>
+<div class="member"><span class="member-initials" aria-hidden="true">TF</span><span class="member-name"><a href="https://www.stanfeng7.website/">Tzu-En Feng</a></span></div>
 <div class="member"><span class="member-initials" aria-hidden="true">HJ</span><span class="member-name">Hammad Javaid</span></div>
 <div class="member"><span class="member-initials" aria-hidden="true">AB</span><span class="member-name">Abhinav Balakrishnan</span></div>
 </div>
