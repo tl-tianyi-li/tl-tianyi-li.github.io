@@ -3,7 +3,7 @@
 
 # Generates the site's pages, news and bibliography from the plain content files in
 # ../website-content (bio.md, research.md, publications.bib, news.yml, teaching.yml,
-# people.yml, lab.md, grants-service-talks.yml, prospective-students.md, site-settings.yml).
+# people.yml, lab.md, lab-life.yml, grants-service-talks.yml, prospective-students.md, site-settings.yml).
 #
 # Usage, from the repository root:
 #   ruby bin/build_content.rb [path/to/website-content]
@@ -280,6 +280,30 @@ group_photo_md = if !group_photo.empty? && File.exist?(File.join(people_dir, gro
                    ""
                  end
 director_md = member_group.("Director", [{ "name" => settings["name"], "photo" => "tianyi-li.png" }])
+# Lab Life: photo cards from website-content/lab-life.yml, newest first; hidden while empty.
+life_md = ""
+if File.exist?(src("lab-life.yml"))
+  life = (yaml("lab-life.yml") || {})["entries"].to_a
+  linkable = (cur.values.flatten + alum["phd"].to_a + alum["ms"].to_a).select { |p| p["url"] }
+  cards = life.sort_by { |e| e["date"].to_s }.reverse.map do |e|
+    abort("lab-life.yml: missing photo #{e['photo']}") unless File.exist?(out("assets/img/lab-life/#{e['photo']}"))
+    caption = expand_papers(e["caption"].to_s.strip, entries)
+    linkable.each { |p| caption = caption.sub(/(?<![\[\w])#{Regexp.escape(p['name'])}(?![\w\]])/, "[#{p['name']}](#{p['url']})") }
+    when_label = Date.parse(e["date"].to_s).strftime("%b %Y")
+    links = e["links"].to_a.map { |l| "[#{l['label']}](#{l['url']})" }.join(" · ")
+    alt = e["caption"].to_s.gsub(/\{paper:[\w-]+\}/, "a paper").gsub(/[*\[\]]/, "").strip
+    <<~HTML.strip
+      <figure class="life-card">
+      <img src="/assets/img/lab-life/#{e['photo']}" alt="#{alt.gsub('"', '&quot;')}" loading="lazy">
+      <figcaption markdown="1">
+      <span class="news-date">#{when_label}</span> #{caption}#{links.empty? ? '' : "\n\n<span class=\"life-links\" markdown=\"1\">#{links}</span>"}
+      </figcaption>
+      </figure>
+    HTML
+  end
+  life_md = "## Lab Life\n\n<div class=\"life-grid\" markdown=\"1\">\n#{cards.join("\n")}\n</div>\n" unless cards.empty?
+end
+
 write("_pages/lab.md", { "layout" => "page", "permalink" => "/lab/", "title" => "Co-Intelligence Lab",
                          "description" => lab_subtitle, "nav" => true, "nav_order" => 4 }, <<~MD)
   #{group_photo_md}#{lab_intro}
@@ -293,6 +317,8 @@ write("_pages/lab.md", { "layout" => "page", "permalink" => "/lab/", "title" => 
   ## Alumni
 
   #{alumni_md.join("\n\n")}
+
+  #{life_md}
 MD
 
 # The old /students/ address now forwards to /lab/.

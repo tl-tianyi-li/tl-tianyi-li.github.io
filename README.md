@@ -13,7 +13,7 @@ The text and data are kept in plain files in the `website-content` folder, which
 | Publications | `publications.bib` |
 | News | `news.yml` |
 | Teaching | `teaching.yml` |
-| Lab page: intro, how we work, members, alumni | `lab.md`, `people.yml` |
+| Lab page: intro, members, alumni, Lab Life | `lab.md`, `people.yml`, `lab-life.yml` |
 | Service, talks, media | `grants-service-talks.yml` |
 | Prospective students | `prospective-students.md` |
 | Name, photo, links, CV | `site-settings.yml` |
@@ -40,6 +40,10 @@ Put photos in `assets/img/people/` (square images about 400×400 px work best; f
 - Group photo: set `group_photo: lab-2026.jpg` in `site-settings.yml`. It appears at the top of the Lab page.
 
 Only add photos with each person's permission. The old `/students/` address redirects to `/lab/`.
+
+## Lab Life
+
+`website-content/lab-life.yml` lists photos (with captions) shown at the bottom of the Lab page, newest first; the section is hidden while the list is empty. Photos go in `assets/img/lab-life/`, resized with hidden metadata removed.
 
 ## Design
 
