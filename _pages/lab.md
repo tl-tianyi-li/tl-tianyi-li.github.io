@@ -27,7 +27,7 @@ The **Co-Intelligence Lab** at Purdue University studies how people learn, make 
 <div class="member"><img src="/assets/img/people/Profile%20Photos/yuzhe-zhou.jpg" alt="Yuzhe Zhou" loading="lazy"><span class="member-name">Yuzhe Zhou</span></div>
 <div class="member"><img src="/assets/img/people/Profile%20Photos/jia-lin-cheoh.jpg" alt="Jia Lin Cheoh" loading="lazy"><span class="member-name">Jia Lin Cheoh</span><span class="member-note">co-advised with Julia Rayz</span></div>
 <div class="member"><img src="/assets/img/people/Profile%20Photos/tianyu-shao.jpg" alt="Tianyu Shao" loading="lazy"><span class="member-name"><a href="https://scholar.google.com/citations?user=u1SFn_UAAAAJ">Tianyu Shao</a></span></div>
-<div class="member"><span class="member-initials" aria-hidden="true">MW</span><span class="member-name">Mingyang Wu</span></div>
+<div class="member"><img src="/assets/img/people/Profile%20Photos/mingyang-wu.jpg" alt="Mingyang Wu" loading="lazy"><span class="member-name"><a href="https://scholar.google.com/citations?user=dEQU_aIAAAAJ">Mingyang Wu</a></span></div>
 <div class="member"><img src="/assets/img/people/Profile%20Photos/meng-yu-wun.jpg" alt="Meng-Yu Wun" loading="lazy"><span class="member-name">Meng-Yu Wun</span></div>
 <div class="member"><span class="member-initials" aria-hidden="true">MG</span><span class="member-name">Markeya Gu</span><span class="member-note">co-advised with Alejandra J. Magana</span></div>
 </div>
