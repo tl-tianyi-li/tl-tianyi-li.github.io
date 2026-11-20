@@ -95,9 +95,9 @@ The **Co-Intelligence Lab** at Purdue University studies how people learn, make 
 
 <div class="life-grid" markdown="1">
 <figure class="life-card">
-<div class="life-photo"><img class="life-backdrop" src="/assets/img/people/Lab%20Activities/2026-10-03-pumpkin-painting.jpg" alt="" aria-hidden="true" loading="lazy"><img src="/assets/img/people/Lab%20Activities/2026-10-03-pumpkin-painting.jpg" alt="Denison Guvenoz with a hand-painted pumpkin showing a moonlit city skyline, from the lab's fall pumpkin painting." loading="lazy"></div>
+<div class="life-photo"><img class="life-backdrop" src="/assets/img/people/Lab%20Activities/2026-10-03-pumpkin-painting.jpg" alt="" aria-hidden="true" loading="lazy"><img src="/assets/img/people/Lab%20Activities/2026-10-03-pumpkin-painting.jpg" alt="Denison Guvenoz with the pumpkin she painted, a moonlit city skyline, at the department's fall pumpkin painting." loading="lazy"></div>
 <figcaption markdown="1">
-<span class="news-date">Oct 2026</span> Denison Guvenoz with a hand-painted pumpkin showing a moonlit city skyline, from the lab's fall pumpkin painting.
+<span class="news-date">Oct 2026</span> Denison Guvenoz with the pumpkin she painted, a moonlit city skyline, at the department's fall pumpkin painting.
 </figcaption>
 </figure>
 <figure class="life-card">
