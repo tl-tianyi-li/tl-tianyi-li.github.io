@@ -70,7 +70,7 @@ jobs:
       - name: Setup Ruby 💎
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: "3.3.5"
+          ruby-version: "3.3"   # latest 3.3.x; exact patch versions disappear when GitHub updates its runners
           bundler-cache: true
       - name: Setup Node 🧰
         uses: actions/setup-node@v4
