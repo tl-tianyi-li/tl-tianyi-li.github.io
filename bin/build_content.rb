@@ -220,6 +220,15 @@ write("_pages/teaching.md", { "layout" => "page", "permalink" => "/teaching/", "
 # ---------------------------------------------------------------------------
 pp = yaml("people.yml")
 cur = pp["current"]
+# Within each group, list students by when they joined (`joined: 2024` or `joined: 2026 Spring`);
+# students without `joined` keep their order from people.yml and go last.
+TERM_ORDER = { "spring" => 1, "summer" => 2, "fall" => 3 }
+joined_key = lambda do |p, i|
+  y, term = p["joined"].to_s.split(/\s+/, 2)
+  return [9999, 0, i] unless y.to_s =~ /\A\d{4}\z/
+  [y.to_i, TERM_ORDER.fetch(term.to_s.downcase, 3), i]
+end
+cur.each_key { |k| cur[k] = cur[k].to_a.each_with_index.sort_by { |p, i| joined_key.(p, i) }.map(&:first) }
 alum = pp["alumni"]
 linked_name = ->(p) { p["url"] ? "[#{p['name']}](#{p['url']})" : p["name"] }
 person = ->(p) { p["note"] ? "- #{linked_name.(p)} (#{p['note']})" : "- #{linked_name.(p)}" }
