@@ -34,16 +34,17 @@ Students listed in `people.yml` are marked with a dotted underline on publicatio
 
 ## Lab photos
 
-Put photos in `assets/img/people/` (square images about 400×400 px work best; file names must not start with `_`). Then:
+Website-ready photos (resized, hidden metadata removed) go in three folders under `assets/img/people/`. Everything in them is published, so never put raw uploads here; lab members upload originals to the lab's shared Teams folder instead. File names must not start with `_`.
 
-- Student headshot: add `photo: name.jpg` under that person in `people.yml`. A group switches to a photo grid once anyone in it has a photo; others show their initials.
-- Group photo: set `group_photo: lab-2026.jpg` in `site-settings.yml`. It appears at the top of the Lab page.
+- `Profile Photos/`: headshots, square, about 400×400 px. Add `photo: firstname-lastname.jpg` under that person in `people.yml`; members without a photo show their initials.
+- `Lab Photos/`: group photos. Set `group_photo:` in `site-settings.yml`; it appears at the top of the Lab page.
+- `Lab Activities/`: Lab Life photos, about 1600 px wide, listed in `lab-life.yml`.
 
 Only add photos with each person's permission. The old `/students/` address redirects to `/lab/`.
 
 ## Lab Life
 
-`website-content/lab-life.yml` lists photos (with captions) shown at the bottom of the Lab page, newest first; the section is hidden while the list is empty. Photos go in `assets/img/lab-life/`, resized with hidden metadata removed.
+`website-content/lab-life.yml` lists photos (with captions) shown at the bottom of the Lab page, newest first; the section is hidden while the list is empty. Photos go in `assets/img/people/Lab Activities/`, resized with hidden metadata removed.
 
 ## Design
 
