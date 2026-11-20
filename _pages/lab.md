@@ -24,11 +24,11 @@ The **Co-Intelligence Lab** at Purdue University studies how people learn, make 
 ### Ph.D. Students
 
 <div class="member-grid">
-<div class="member"><img src="/assets/img/people/Profile%20Photos/yuzhe-zhou.jpg" alt="Yuzhe Zhou" loading="lazy"><span class="member-name">Yuzhe Zhou</span></div>
+<div class="member"><img src="/assets/img/people/Profile%20Photos/yuzhe-zhou.jpg" alt="Yuzhe Zhou" loading="lazy"><span class="member-name"><a href="https://azhe22.github.io/">Yuzhe Zhou</a></span></div>
 <div class="member"><img src="/assets/img/people/Profile%20Photos/jia-lin-cheoh.jpg" alt="Jia Lin Cheoh" loading="lazy"><span class="member-name">Jia Lin Cheoh</span><span class="member-note">co-advised with Julia Rayz</span></div>
 <div class="member"><img src="/assets/img/people/Profile%20Photos/tianyu-shao.jpg" alt="Tianyu Shao" loading="lazy"><span class="member-name"><a href="https://scholar.google.com/citations?user=u1SFn_UAAAAJ">Tianyu Shao</a></span></div>
 <div class="member"><img src="/assets/img/people/Profile%20Photos/mingyang-wu.jpg" alt="Mingyang Wu" loading="lazy"><span class="member-name"><a href="https://scholar.google.com/citations?user=dEQU_aIAAAAJ">Mingyang Wu</a></span></div>
-<div class="member"><img src="/assets/img/people/Profile%20Photos/meng-yu-wun.jpg" alt="Meng-Yu Wun" loading="lazy"><span class="member-name">Meng-Yu Wun</span></div>
+<div class="member"><img src="/assets/img/people/Profile%20Photos/meng-yu-wun.jpg" alt="Meng-Yu Wun" loading="lazy"><span class="member-name"><a href="https://www.linkedin.com/in/mwun">Meng-Yu Wun</a></span></div>
 <div class="member"><span class="member-initials" aria-hidden="true">MG</span><span class="member-name">Markeya Gu</span><span class="member-note">co-advised with Alejandra J. Magana</span></div>
 </div>
 
@@ -103,7 +103,7 @@ The **Co-Intelligence Lab** at Purdue University studies how people learn, make 
 <figure class="life-card">
 <div class="life-photo"><img class="life-backdrop" src="/assets/img/people/Lab%20Activities/2026-09-27-hcomp-doctoral-consortium.jpg" alt="" aria-hidden="true" loading="lazy"><img src="/assets/img/people/Lab%20Activities/2026-09-27-hcomp-doctoral-consortium.jpg" alt="Yuzhe Zhou with fellow participants and organizers of the HCOMP 2026 Doctoral Consortium in Arlington, VA." loading="lazy"></div>
 <figcaption markdown="1">
-<span class="news-date">Sep 2026</span> Yuzhe Zhou with fellow participants and organizers of the **HCOMP 2026** Doctoral Consortium in Arlington, VA.
+<span class="news-date">Sep 2026</span> [Yuzhe Zhou](https://azhe22.github.io/) with fellow participants and organizers of the **HCOMP 2026** Doctoral Consortium in Arlington, VA.
 
 <span class="life-links" markdown="1">[HCOMP 2026](https://hcomp.acm.org/2026/)</span>
 </figcaption>
@@ -117,13 +117,13 @@ The **Co-Intelligence Lab** at Purdue University studies how people learn, make 
 <figure class="life-card">
 <div class="life-photo"><img class="life-backdrop" src="/assets/img/people/Lab%20Activities/2026-03-01-iui-2026-talk.jpg" alt="" aria-hidden="true" loading="lazy"><img src="/assets/img/people/Lab%20Activities/2026-03-01-iui-2026-talk.jpg" alt="Yuzhe Zhou presenting our full paper at IUI 2026 in Limassol, Cyprus" loading="lazy"></div>
 <figcaption markdown="1">
-<span class="news-date">Mar 2026</span> Yuzhe Zhou presenting our full paper at **IUI 2026** in Limassol, Cyprus:<br>[*ExPeerience: Towards AI-Assisted Learnersourcing to Bridge Conceptual Understanding and Problem Solving in Database Programming Education*](https://doi.org/10.1145/3742413.3789139) (Yuzhe Zhou, Prithvi Manjunatha, Udayan Pandey, Alejandra J. Magana, and Tianyi Li)
+<span class="news-date">Mar 2026</span> [Yuzhe Zhou](https://azhe22.github.io/) presenting our full paper at **IUI 2026** in Limassol, Cyprus:<br>[*ExPeerience: Towards AI-Assisted Learnersourcing to Bridge Conceptual Understanding and Problem Solving in Database Programming Education*](https://doi.org/10.1145/3742413.3789139) (Yuzhe Zhou, Prithvi Manjunatha, Udayan Pandey, Alejandra J. Magana, and Tianyi Li)
 </figcaption>
 </figure>
 <figure class="life-card">
 <div class="life-photo"><img class="life-backdrop" src="/assets/img/people/Lab%20Activities/2025-11-04-fie-2025-talk.jpg" alt="" aria-hidden="true" loading="lazy"><img src="/assets/img/people/Lab%20Activities/2025-11-04-fie-2025-talk.jpg" alt="Yuzhe Zhou presenting our paper at IEEE FIE 2025 in Nashville, TN" loading="lazy"></div>
 <figcaption markdown="1">
-<span class="news-date">Nov 2025</span> Yuzhe Zhou presenting our paper at **IEEE FIE 2025** in Nashville, TN:<br>[*Examining Perception Differences in Context Familiarity Between Students and Instructors in Computing Education: A Case Study on Introductory Database Concepts*](https://doi.org/10.1109/FIE63693.2025.11328279) (Yuzhe Zhou, Paul Thomas, and Tianyi Li)
+<span class="news-date">Nov 2025</span> [Yuzhe Zhou](https://azhe22.github.io/) presenting our paper at **IEEE FIE 2025** in Nashville, TN:<br>[*Examining Perception Differences in Context Familiarity Between Students and Instructors in Computing Education: A Case Study on Introductory Database Concepts*](https://doi.org/10.1109/FIE63693.2025.11328279) (Yuzhe Zhou, Paul Thomas, and Tianyi Li)
 </figcaption>
 </figure>
 </div>
