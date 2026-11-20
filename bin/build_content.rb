@@ -305,7 +305,8 @@ if File.exist?(src("lab-life.yml"))
     linkable.each { |p| caption = caption.sub(/(?<![\[\w])#{Regexp.escape(p['name'])}(?![\w\]])/, "[#{p['name']}](#{p['url']})") }
     when_label = Date.parse(e["date"].to_s).strftime("%b %Y")
     links = e["links"].to_a.map { |l| "[#{l['label']}](#{l['url']})" }.join(" · ")
-    alt = e["caption"].to_s.gsub(/\{paper:[\w-]+\}/, "a paper").gsub(/[*\[\]]/, "").strip
+    alt = e["caption"].to_s.gsub(/[:,]?\s*(<br\s*\/?>\s*)*\{paper:[\w-]+\}/, "").gsub(/<[^>]+>/, " ")
+                      .gsub(/[*\[\]]/, "").squeeze(" ").strip.sub(/[:,]\z/, "")
     <<~HTML.strip
       <figure class="life-card">
       <div class="life-photo"><img class="life-backdrop" src="#{img_url.(ACTIVITY_DIR, e['photo'])}" alt="" aria-hidden="true" loading="lazy"><img src="#{img_url.(ACTIVITY_DIR, e['photo'])}" alt="#{alt.gsub('"', '&quot;')}" loading="lazy"></div>

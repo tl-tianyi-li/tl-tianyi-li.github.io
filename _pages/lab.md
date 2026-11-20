@@ -109,13 +109,19 @@ The **Co-Intelligence Lab** at Purdue University studies how people learn, make 
 </figcaption>
 </figure>
 <figure class="life-card">
-<div class="life-photo"><img class="life-backdrop" src="/assets/img/people/Lab%20Activities/2026-03-01-iui-2026-talk.jpg" alt="" aria-hidden="true" loading="lazy"><img src="/assets/img/people/Lab%20Activities/2026-03-01-iui-2026-talk.jpg" alt="Yuzhe Zhou presenting our full paper at IUI 2026 in Limassol, Cyprus:<br>a paper" loading="lazy"></div>
+<div class="life-photo"><img class="life-backdrop" src="/assets/img/people/Lab%20Activities/2026-06-30-aied-2026-talk.jpg" alt="" aria-hidden="true" loading="lazy"><img src="/assets/img/people/Lab%20Activities/2026-06-30-aied-2026-talk.jpg" alt="Tianyu Shao presenting our short paper at AIED 2026 in Seoul, Korea" loading="lazy"></div>
+<figcaption markdown="1">
+<span class="news-date">Jun 2026</span> [Tianyu Shao](https://scholar.google.com/citations?user=u1SFn_UAAAAJ) presenting our short paper at **AIED 2026** in Seoul, Korea:<br>[*Tracing Prompt-Level Interaction Trajectories to Understand Student Learning with LLMs in Programming Education*](https://doi.org/10.1007/978-3-032-29770-9_29) (Tianyu Shao, Miguel Feijóo García, Yi Zhang, Hugo Castellanos, Tawfiq Salem, Alejandra J. Magana, and Tianyi Li)
+</figcaption>
+</figure>
+<figure class="life-card">
+<div class="life-photo"><img class="life-backdrop" src="/assets/img/people/Lab%20Activities/2026-03-01-iui-2026-talk.jpg" alt="" aria-hidden="true" loading="lazy"><img src="/assets/img/people/Lab%20Activities/2026-03-01-iui-2026-talk.jpg" alt="Yuzhe Zhou presenting our full paper at IUI 2026 in Limassol, Cyprus" loading="lazy"></div>
 <figcaption markdown="1">
 <span class="news-date">Mar 2026</span> Yuzhe Zhou presenting our full paper at **IUI 2026** in Limassol, Cyprus:<br>[*ExPeerience: Towards AI-Assisted Learnersourcing to Bridge Conceptual Understanding and Problem Solving in Database Programming Education*](https://doi.org/10.1145/3742413.3789139) (Yuzhe Zhou, Prithvi Manjunatha, Udayan Pandey, Alejandra J. Magana, and Tianyi Li)
 </figcaption>
 </figure>
 <figure class="life-card">
-<div class="life-photo"><img class="life-backdrop" src="/assets/img/people/Lab%20Activities/2025-11-04-fie-2025-talk.jpg" alt="" aria-hidden="true" loading="lazy"><img src="/assets/img/people/Lab%20Activities/2025-11-04-fie-2025-talk.jpg" alt="Yuzhe Zhou presenting our paper at IEEE FIE 2025 in Nashville, TN:<br>a paper" loading="lazy"></div>
+<div class="life-photo"><img class="life-backdrop" src="/assets/img/people/Lab%20Activities/2025-11-04-fie-2025-talk.jpg" alt="" aria-hidden="true" loading="lazy"><img src="/assets/img/people/Lab%20Activities/2025-11-04-fie-2025-talk.jpg" alt="Yuzhe Zhou presenting our paper at IEEE FIE 2025 in Nashville, TN" loading="lazy"></div>
 <figcaption markdown="1">
 <span class="news-date">Nov 2025</span> Yuzhe Zhou presenting our paper at **IEEE FIE 2025** in Nashville, TN:<br>[*Examining Perception Differences in Context Familiarity Between Students and Instructors in Computing Education: A Case Study on Introductory Database Concepts*](https://doi.org/10.1109/FIE63693.2025.11328279) (Yuzhe Zhou, Paul Thomas, and Tianyi Li)
 </figcaption>
