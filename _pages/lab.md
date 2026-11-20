@@ -90,3 +90,34 @@ The **Co-Intelligence Lab** at Purdue University studies how people learn, make 
 - Shreya Venkat
 - Harmya Bhatt
 - Paul Gherghetta
+
+## Lab Life
+
+<div class="life-grid" markdown="1">
+<figure class="life-card">
+<img src="/assets/img/people/Lab%20Activities/2026-10-03-pumpkin-painting.jpg" alt="Denison Guvenoz with a hand-painted pumpkin showing a moonlit city skyline, from the lab's fall pumpkin painting." loading="lazy">
+<figcaption markdown="1">
+<span class="news-date">Oct 2026</span> Denison Guvenoz with a hand-painted pumpkin showing a moonlit city skyline, from the lab's fall pumpkin painting.
+</figcaption>
+</figure>
+<figure class="life-card">
+<img src="/assets/img/people/Lab%20Activities/2026-09-27-hcomp-doctoral-consortium.jpg" alt="Yuzhe Zhou with fellow participants and organizers of the HCOMP 2026 Doctoral Consortium in Arlington, VA." loading="lazy">
+<figcaption markdown="1">
+<span class="news-date">Sep 2026</span> Yuzhe Zhou with fellow participants and organizers of the **HCOMP 2026** Doctoral Consortium in Arlington, VA.
+
+<span class="life-links" markdown="1">[HCOMP 2026](https://hcomp.acm.org/2026/)</span>
+</figcaption>
+</figure>
+<figure class="life-card">
+<img src="/assets/img/people/Lab%20Activities/2026-03-01-iui-2026-talk.jpg" alt="Yuzhe Zhou presenting our full paper at IUI 2026 in Limassol, Cyprus:<br>a paper" loading="lazy">
+<figcaption markdown="1">
+<span class="news-date">Mar 2026</span> Yuzhe Zhou presenting our full paper at **IUI 2026** in Limassol, Cyprus:<br>[*ExPeerience: Towards AI-Assisted Learnersourcing to Bridge Conceptual Understanding and Problem Solving in Database Programming Education*](https://doi.org/10.1145/3742413.3789139) (Yuzhe Zhou, Prithvi Manjunatha, Udayan Pandey, Alejandra J. Magana, and Tianyi Li)
+</figcaption>
+</figure>
+<figure class="life-card">
+<img src="/assets/img/people/Lab%20Activities/2025-11-04-fie-2025-talk.jpg" alt="Yuzhe Zhou presenting our paper at IEEE FIE 2025 in Nashville, TN:<br>a paper" loading="lazy">
+<figcaption markdown="1">
+<span class="news-date">Nov 2025</span> Yuzhe Zhou presenting our paper at **IEEE FIE 2025** in Nashville, TN:<br>[*Examining Perception Differences in Context Familiarity Between Students and Instructors in Computing Education: A Case Study on Introductory Database Concepts*](https://doi.org/10.1109/FIE63693.2025.11328279) (Yuzhe Zhou, Paul Thomas, and Tianyi Li)
+</figcaption>
+</figure>
+</div>
