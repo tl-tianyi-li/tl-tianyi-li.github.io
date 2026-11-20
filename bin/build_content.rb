@@ -308,7 +308,7 @@ if File.exist?(src("lab-life.yml"))
     alt = e["caption"].to_s.gsub(/\{paper:[\w-]+\}/, "a paper").gsub(/[*\[\]]/, "").strip
     <<~HTML.strip
       <figure class="life-card">
-      <img src="#{img_url.(ACTIVITY_DIR, e['photo'])}" alt="#{alt.gsub('"', '&quot;')}" loading="lazy">
+      <div class="life-photo"><img class="life-backdrop" src="#{img_url.(ACTIVITY_DIR, e['photo'])}" alt="" aria-hidden="true" loading="lazy"><img src="#{img_url.(ACTIVITY_DIR, e['photo'])}" alt="#{alt.gsub('"', '&quot;')}" loading="lazy"></div>
       <figcaption markdown="1">
       <span class="news-date">#{when_label}</span> #{caption}#{links.empty? ? '' : "\n\n<span class=\"life-links\" markdown=\"1\">#{links}</span>"}
       </figcaption>
